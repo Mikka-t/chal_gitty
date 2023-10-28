@@ -10,7 +10,7 @@ def call_function(name):
         print(f"Function {n} not found.")
 
 if __name__ == '__main__':
-    names_function = []
+    names_function = ["b64_decode"]
 
     print("Available functions:")
     for i, name in enumerate(names_function):
